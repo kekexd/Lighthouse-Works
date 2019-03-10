@@ -33,6 +33,22 @@
 - Statelessness also brings new features. It’s easier to distribute a stateless application across load-balanced servers. A stateless application is also easy to cache.
 
 #### JSON
-- JSON.parse() is for "parsing" something that was received as JSON.
-- JSON.stringify() is to create a JSON string out of an object/array.
-- They are the inverse of each other. JSON.stringify() serializes a JS object into a JSON string, whereas JSON.parse() will deserialize a JSON string into a JS object.
+- `JSON.parse()` is for "parsing" something that was received as JSON.
+- `JSON.stringify()` is to create a JSON string out of an object/array.
+- They are the inverse of each other. `JSON.stringify()` serializes a JS object into a JSON string, whereas `JSON.parse()` will deserialize a JSON string into a JS object.
+
+#### cURL
+- cURL is a command line utility that is used to make HTTP requests to a given URL and it outputs the response. It allows you to see the URL.
+
+#### API
+
+- API stands for Application Programming Interface through which softwares can interact with each other. Note not a human interaction.
+
+- An example, You are buying an item in online through your credit card. You will provide credit card details and press continue button. It will tell you whether your information is correct or not. To provide these results, there are lot of things in the background.The application will send your credit card details to a remote application which will validate your information and send the result back your application. API is used in this scenario.
+
+- ANOTHER EXAMPLE. Weather application
+  - Without API - Weather application must open weather.com site and read the details as human does.
+  - With API - Weather application will send a message to weather.com and receives the result and then display it.
+  
+#### Sublime shortcut
+- To select multiple regions using the keyboard, select a block of text, then press <b>Ctrl+Shift+L</b> to split it into one selection per line. 
