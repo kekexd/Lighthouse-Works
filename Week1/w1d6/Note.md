@@ -49,3 +49,6 @@
 - ANOTHER EXAMPLE. Weather application
   - Without API - Weather application must open weather.com site and read the details as human does.
   - With API - Weather application will send a message to weather.com and receives the result and then display it.
+  
+#### Sublime shortcut
+- To select multiple regions using the keyboard, select a block of text, then press <b>Ctrl+Shift+L</b> to split it into one selection per line. 
