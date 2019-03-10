@@ -33,9 +33,12 @@
 - Statelessness also brings new features. It’s easier to distribute a stateless application across load-balanced servers. A stateless application is also easy to cache.
 
 #### JSON
-- JSON.parse() is for "parsing" something that was received as JSON.
-- JSON.stringify() is to create a JSON string out of an object/array.
-- They are the inverse of each other. JSON.stringify() serializes a JS object into a JSON string, whereas JSON.parse() will deserialize a JSON string into a JS object.
+- `JSON.parse()` is for "parsing" something that was received as JSON.
+- `JSON.stringify()` is to create a JSON string out of an object/array.
+- They are the inverse of each other. `JSON.stringify()` serializes a JS object into a JSON string, whereas `JSON.parse()` will deserialize a JSON string into a JS object.
+
+#### cURL
+- cURL is a command line utility that is used to make HTTP requests to a given URL and it outputs the response. It allows you to see the URL.
 
 #### API
 
